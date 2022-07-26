@@ -70,6 +70,17 @@
     </div>
     </nav>
 
+    <div class="container photo__holder">
+        <img 
+            class= "photo" 
+            src="/images/hellen.jpeg"
+            />
+
+        <div>
+            
+        </div>
+    </div>
+
 
 
 
