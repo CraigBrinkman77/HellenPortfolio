@@ -12,8 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Hellen Castro Home</title>
-    <!-- for Bootstrap CSS -->
-    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" />
+    <!-- for Bootstrap CSS
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css" /> -->
     <!-- YOUR own local CSS -->
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <!-- CSS only -->
@@ -23,20 +23,19 @@
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script> -->
     <!-- YOUR own local JS -->
     <script type="text/javascript" src="/js/app.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <!-- Enter body here -->
-    <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm fixed-top navbar-background">
         <div class="container">
-
-        
         <a
         href="#"
         class="navbar-brand mb-0 h1">
             <img 
-            class= "d-inline-block align-top" 
-            src="/images/Headshot_1.jpg"
-            height="30" width="30"/>
+            class= "d-inline-block logo" 
+            src="/images/hummingbird.webp"
+            />
             Hellen Castro
         </a>
         <button 
@@ -46,15 +45,18 @@
         data-bs-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
-        aria-label="Toggle Navigation"
+        aria-label="Toggle navigation"
         >
-            <span class="navbar-toggler-icon" > </span>
+            <!-- <span class="navbar-toggler-icon" > </span> -->
+            <span class="material-symbols-outlined">
+                menu
+                </span>
         </button>
         <div class="collapse navbar-collapse" 
         id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a href="#" class="nav-link active">Services</a>
+                <a href="/HellenCastro/" class="nav-link active">Services</a>
             </li>
             <li class="nav-item active">
                 <a href="#" class="nav-link">Pricing</a>
@@ -79,6 +81,12 @@
 
 
 
-    
+
+    <!-- JavaScript Bundle with Popper -->
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+crossorigin="anonymous">
+</script>
 </body>
 </html>
